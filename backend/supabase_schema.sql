@@ -65,17 +65,3 @@ CREATE INDEX IF NOT EXISTS idx_student_active ON public.students_student(is_acti
 CREATE INDEX IF NOT EXISTS idx_examresult_student ON public.students_examresult(student_id);
 CREATE INDEX IF NOT EXISTS idx_examresult_subject ON public.students_examresult(subject_id);
 CREATE INDEX IF NOT EXISTS idx_examresult_date ON public.students_examresult(exam_date);
-
--- 6. Initial Subjects Data
-INSERT INTO public.students_subject (name, code, max_marks, class_name, teacher)
-VALUES
-    ('Mathematics', 'MATH10', 100, '10A', 'Mr. Sharma'),
-    ('Science', 'SCI10', 100, '10A', 'Mrs. Patel'),
-    ('English', 'ENG10', 100, '10A', 'Ms. Verma'),
-    ('Social Studies', 'SS10', 100, '10A', 'Mr. Kumar'),
-    ('Computer Science', 'CS10', 100, '10A', 'Mrs. Joshi'),
-    ('Mathematics', 'MATH9', 100, '9A', 'Mr. Singh'),
-    ('Science', 'SCI9', 100, '9A', 'Mrs. Gupta'),
-    ('English', 'ENG9', 100, '9A', 'Ms. Rao'),
-    ('Social Studies', 'SS9', 100, '9A', 'Mr. Mehta')
-ON CONFLICT (code) DO NOTHING;
