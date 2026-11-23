@@ -1,0 +1,9 @@
+student_id,first_name,last_name,email,gender,class_name,section,roll_number,parent_name,contact
+STU001,Alice,Johnson,alice.johnson@school.edu,Female,10A,A,1,Mr. Johnson,9812345671
+STU002,Bob,Smith,bob.smith@school.edu,Male,10A,A,2,Mrs. Smith,9812345672
+STU003,Carol,Williams,carol.williams@school.edu,Female,10A,A,3,Mr. Williams,9812345673
+STU004,David,Brown,david.brown@school.edu,Male,10A,A,4,Mrs. Brown,9812345674
+STU005,Emma,Davis,emma.davis@school.edu,Female,10B,B,1,Mr. Davis,9812345675
+STU006,Frank,Miller,frank.miller@school.edu,Male,10B,B,2,Mrs. Miller,9812345676
+STU007,Grace,Wilson,grace.wilson@school.edu,Female,9A,A,1,Mr. Wilson,9812345677
+STU008,Henry,Moore,henry.moore@school.edu,Male,9A,A,2,Mrs. Moore,9812345678
